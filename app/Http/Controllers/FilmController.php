@@ -33,4 +33,8 @@ class FilmController extends Controller
 
         return redirect()->route('films.index')->with('success', 'Film sikeresen hozzáadva!');
     }
+    public function destroy()
+    {
+
+    }
 }
